@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5DC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CẬP NHẬT NOTES"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#D9A23D"
+        android:padding="12dp"
+        android:fontFamily="sans-serif-black"/>
+
+    <EditText
+        android:id="@+id/edtNoteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Notes"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CẬP NHẬT NOTES"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:background="#6200EA"
+            android:padding="12dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnCancel_Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HỦY"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:background="#B00020"
+            android:padding="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>
